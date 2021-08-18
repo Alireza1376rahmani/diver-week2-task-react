@@ -1,0 +1,17 @@
+.button__cell {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.button__cell button {
+    margin: 0 10px;
+}
+
+tr:nth-child(even) td {
+    background-color: #f8f8f8;
+}
+
+tr:hover td {
+    background-color: #f0f0f0;
+}

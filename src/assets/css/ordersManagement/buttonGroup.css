@@ -1,0 +1,30 @@
+.button-group {
+    margin: 15px auto;
+}
+
+.button-group button {
+    border: 1px solid #019CD5;
+    color: #019CD5;
+    background-color: inherit;
+    padding: 5px 10px;
+    font-weight: 600;
+}
+
+.button-group button:hover {
+    cursor: pointer;
+    background-color: #ebfaff;
+}
+
+.button-group button:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.button-group button:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.button-group button.active {
+    background-color: #019CD5;
+    color: #fcfcfc;
+}
